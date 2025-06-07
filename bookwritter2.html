@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="black"></h1>
+
+    <div id="div2">
+        <h1><i>novel saved!</i></h1>
+        <button id="ok" onclick="okNovel()"> ok </button>
+       </div>
+
+    <div id="div">
+        <h4> do you want to save this ?</h4>
+        <button id="yes" onclick="saveingNovel()">yes</button> <button id="no" onclick="closeSaveNovel()">no</button>
+       </div>
+
+    <button id="done" onclick="saveNovel()">done</button> <button id="goBack" onclick="saveNovel()">go back</button>
+   <h1 id="head"> book writter <button id="create" onclick="popUpBox()">create new </button></h1>
+   <div id="popup2">
+    <h1><i>choose model</i></h1>
+    <button id="buttt" onclick="popUpBox2()"> rolePlay</button><button id="buttton" onclick="popUpBox3()">novel</button>
+    
+    </div>
+
+   <div id="popup4">
+    <h1><i> create new 
+        (role play)
+    </i></h1> 
+ book name:<input id="c1" placeholder="enter book name"><br>
+ author:<input id="c2" placeholder="enter author name"><br>
+ description:<input id="c3" placeholder="enter description"><br>
+   <button class="butt" onclick="createNewNovel()
+                                  create()">create</button>
+    
+   </div>
+
+   <div id="popup3">
+    <h1><i> create new 
+        (novel)
+    </i></h1> 
+  book name:<input id="c12" placeholder="enter book name"><br>
+   author:<input id="c22" placeholder="enter author name"><br>
+   description :<input id="c32" placeholder="enter description"><br>
+   <button class="butt" onclick="createNewNovel2()">create</button>
+   </div>
+
+   <button id="addd" onclick="createRolePlay2()">add dialoude</button> <button id="adddd" onclick="writeRolePlay2()">add charecter</button>
+   <button id="addddd" onclick="writeRolePlay3()">close</button>
+
+   <div id="namePopUpBox">
+    <h3>enter charecter name </h3>
+    <input placeholder="enter charecter name" id="namecharecter">
+    <button id="ok5" onclick="createRolePlay() ">ok</button><button id="ok6" onclick="gender() 
+    a()">add image</button>
+   </div>
+   <div id="check">
+    <h3><i>please enter a name for your charecter</i></h3>
+    <h3><i>before adding an image</i></h3>
+    <button id="okbtn" onclick="closing()">ok</button>
+   </div>
+   <div id="gender">
+    <h3>please select gender</h3>
+    <button id="male" onclick="image()"> male</button>
+    <button id="female" onclick="girl()">female</button>
+   </div>
+
+   <div id="images">
+    <img src="boy1.PNG" onclick="select('selected boy1') " id="boy1" class="">
+    <img src="boy2.PNG" onclick= "select('selected boy2')" id="boy2" class="">
+    <img src="boy3.PNG" onclick="select('selected boy3')" id="boy3" class="">
+    <img src="boy4.PNG" onclick= "select('selected boy4')" id="boy4" class="">
+    <img src="boy5.PNG" onclick=" select('selected boy5')" id="boy5" class="">
+    <img src="boy6.PNG" onclick="select('selected boy6')" id="boy6" class="">
+    <img src="boy7.PNG" onclick="select('selected boy7')" id="boy7" class="">
+    <img src="boy8.PNG" onclick="select('selected boy8')" id="boy8" class="">
+    <img src="boy9.PNG" onclick="select('selected boy9')" id="boy9" class="">
+</div>
+<div id="images2">
+    <img src="girl1.PNG" onclick="select('selected girl1') " id="girl1" class="">
+    <img src="girl2.PNG" onclick= "select('selected girl2')" id="girl2" class="">
+    <img src="girl3.PNG" onclick="select('selected girl3')" id="girl3" class="">
+    <img src="girl4.PNG" onclick= "select('selected girl4')" id="girl4" class="">
+    <img src="girl5.PNG" onclick=" select('selected girl5')" id="girl5" class="">
+</div>
+
+   <div id="div200"></div>
+
+  <div id="div100"></div>
+    <div id="bye"></div>
+
+   
+
+   
+   <script src="script.js"></script>
+       
+</body>
+</html>

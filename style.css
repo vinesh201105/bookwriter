@@ -1,0 +1,305 @@
+#black {
+            background-color: black;
+            height: 650px;
+            opacity: 0.8;
+            display: none;
+            top: 0px;
+            left: 0px;
+            right: 0px;
+            position: absolute;
+            z-index: 100px;
+            
+        }
+
+        
+
+        #popup2 {
+            background-color: rgb(247, 80, 80);
+            width: 300px;
+            height: 300px;
+            text-align: center;
+            margin-left: 500px;
+            display: none;
+            position: absolute;
+            z-index: 4;
+        }
+
+        #popup4 {
+            background-color: rgb(247, 80, 80);
+            width: 350px;
+            height: 300px;
+            text-align: center;
+            left: 35%;
+            display: none;
+            position: fixed;
+            z-index: 100;
+            border-radius: 20px;
+        }
+
+
+        #popup3 {
+            text-align: center;
+            background-color: rgb(247, 80, 80);
+            width:350px;
+            height: 300px;
+            margin-left: 450px;
+            display: none;
+            position: absolute;
+            z-index: 3;
+            border-radius: 10px;
+        }
+
+        #c1 {
+            text-align: center;
+            margin-top: 10px;
+            background-color: rgb(247, 80, 80);
+        }
+
+        #c2 {
+            margin-top: 30px;
+            margin-left: 25px;
+            background-color: rgb(247, 80, 80);
+        }
+
+        #c3{
+            margin-right: 10px;
+            margin-top: 30px;
+            background-color: rgb(247, 80, 80);
+        }
+
+        #c12 {
+            text-align: center;
+            margin-top: 10px;
+            background-color: rgb(247, 80, 80);
+        }
+
+        #c22 {
+            margin-top: 30px;
+            margin-left: 25px;
+            background-color: rgb(247, 80, 80);
+        }
+
+        #c32{
+            margin-right: 10px;
+            margin-top: 30px;
+            background-color: rgb(247, 80, 80);
+        }
+
+        .butt {
+            margin-top: 10px;
+            margin-left: 190px;
+            background-color: black;
+            color: white;
+            border-radius: 20px;
+        }
+
+        #buttt {
+            margin-top: 150px;
+            margin-right: 50px;
+            background-color: black;
+            color: white;
+            border-radius: 20px;
+        }
+
+        #buttton{
+            margin-top: 150px;
+            background-color: black;
+            color: white;
+            border-radius: 20px;
+        }
+
+
+        #create {
+            margin-left: 970px;
+            border-radius: 10px;
+            background-color: black;
+            color: white;
+        }
+
+        #head {
+            background-color: rgb(247, 80, 80);
+            height: 60px;
+            padding-top: 10px;
+        }
+
+        .hello{
+           display: inline;
+        }
+
+        .textarea{
+            width: 100%;
+            height: 10000px;
+            display: block;
+        }
+
+        #done{
+            margin-right: 500px;
+            background-color: rgb(247, 80, 80);
+            border-radius: 20px;
+            color: black;
+            display: none;
+        }
+
+        #goBack{
+            background-color: rgb(247, 80, 80);
+            border-radius: 20px;
+            color: black;
+            display: none;
+        }
+
+        #div {
+            background-color: rgb(247, 80, 80);
+            width: 300px;
+            height: 150px;
+            text-align: center;
+            margin-left: 500px;
+            margin-top: 100px;
+            display: none;
+            position: absolute;
+        }
+
+        #yes{
+            background-color: black;
+            color: white;
+            margin-top: 50px;
+            margin-right: 70px;
+            border-radius: 20px;
+        }
+
+        #no{
+            background-color: black;
+            color: white;
+            margin-top: 50px;
+            margin-left: 20px;
+            border-radius: 20px;
+        }
+
+        #div2 {
+            background-color: rgb(247, 80, 80);
+            width: 300px;
+            height: 150px;
+            text-align: center;
+            margin-left: 500px;
+            margin-top: 50px;
+            display: none;
+            position: absolute;
+        }
+
+        #ok {
+            background-color: black;
+            color: white;
+            border-radius: 20px;
+            margin-top: 30px;
+        }
+
+        #addd {
+            background-color: rgb(247, 80, 80);
+            color: black;
+            border-radius: 20px;
+            display: none;
+        }
+
+        #adddd {
+            background-color: rgb(247, 80, 80);
+            color: black;
+            border-radius: 20px;
+            display: none;
+        }
+
+        #addddd {
+            background-color: rgb(247, 80, 80);
+            color: black;
+            border-radius: 20px;
+            display: none;
+        }
+
+        #namePopUpBox {
+            background-color: rgb(247, 80, 80);
+            width: 300px;
+            height: 200px;
+            margin-left: 500px;
+            border-radius: 20px;
+            text-align: center;
+            color: black;
+            display: none;
+            position: absolute;
+            z-index: 2;
+        }
+        #check{
+            background-color: rgb(247, 80, 80);
+            width: 300px;
+            height: 200px;
+            margin-left: 500px;
+            border-radius: 20px;
+            text-align: center;
+            color: black;
+            display: none;
+            position: absolute;
+            z-index: 2;
+        }
+
+        #namecharecter {
+            background: transparent;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        #ok5 {
+            background-color: black;
+            color: white;
+            border-radius: 20px;
+            margin-left: 150px;
+            margin-top: 50px;
+            width: 50px;
+        }
+
+        #okbtn{
+            margin-top: 70px;
+            margin-left: 190px;
+            background-color: black;
+            color: white;
+            border-radius: 100px;
+        }
+        #ok6{
+            background-color: black;
+            color: white;
+            margin-left: 150px;
+            margin-top: 10px;
+            border-radius: 20px;
+        }
+
+        #images{
+            display: none;
+        }
+        .boy{
+            width: 50px;
+            height: 50px;
+        }
+
+        #gender{
+            background-color: rgb(247, 80, 80);
+            width: 300px;
+            height: 300px;
+            text-align: center;
+            margin-left: 500px;
+            display: none;
+            position: absolute;
+            z-index: 4;
+            border-radius: 10px;
+        }
+
+        #male{
+            background-color: black;
+            color: white;
+            border-radius: 20px;
+        }
+
+        #female{
+            background-color: black;
+            color: white;
+            border-radius: 20px
+        }
+
+        #images2{
+            display: none;
+        }
